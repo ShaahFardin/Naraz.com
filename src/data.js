@@ -40,3 +40,40 @@ export const categories = [
         title: "LIGHT JACKET"
     },
 ]
+
+
+export const popularProducts = [
+    {
+        id: 1,
+        img: "https://i.ibb.co/GJ5p9KL/slider-1-removebg-preview.png"
+    },
+    {
+        id: 2,
+        img: "https://i.ibb.co/GJ5p9KL/slider-1-removebg-preview.png"
+    },
+    {
+        id: 3,
+        img: "https://i.ibb.co/GJ5p9KL/slider-1-removebg-preview.png"
+    },
+    {
+        id: 4,
+        img: "https://i.ibb.co/GJ5p9KL/slider-1-removebg-preview.png"
+    },
+    {
+        id: 5,
+        img: "https://i.ibb.co/GJ5p9KL/slider-1-removebg-preview.png"
+    },
+    {
+        id: 6,
+        img: "https://i.ibb.co/GJ5p9KL/slider-1-removebg-preview.png"
+    },
+    {
+        id: 7,
+        img: "https://i.ibb.co/GJ5p9KL/slider-1-removebg-preview.png"
+    },
+    {
+        id: 8,
+        img: "https://i.ibb.co/GJ5p9KL/slider-1-removebg-preview.png"
+    },
+    
+]
