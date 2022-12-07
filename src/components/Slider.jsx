@@ -50,7 +50,7 @@ const ImageContainer = styled.div`
     flex: 1;
 `
 const Image = styled.img`
-    height: 70%;
+    height: 80%;
 `
 const InfoContainer = styled.div`
     flex: 1;
