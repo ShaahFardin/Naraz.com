@@ -15,7 +15,7 @@ export const sliderItems = [
         bg: "f5fafd"
     },
     {
-        "id": 1,
+        "id": 3,
         title: "SPRING SALE",
         img : "https://i.ibb.co/7Qcv3ny/slider-3-removebg-preview.png",
         desc: "DONT COMPROMISE ON STYLE! GET FLAT 50% OFF FOR NEW ARRIVALS",
@@ -35,7 +35,7 @@ export const categories = [
         title: "MANS SUIT"
     },
     {
-        id: 1,
+        id: 3,
         img: "https://i.ibb.co/1KMvK8T/jacket-three-female.jpg",
         title: "LIGHT JACKET"
     },
