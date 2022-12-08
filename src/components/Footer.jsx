@@ -62,6 +62,9 @@ const ContactItem = styled.div`
     align-items: center;
    
 `
+const Image = styled.img`
+    width: 40%;
+`
 const Footer = () => {
     return (
         <Container>
@@ -104,7 +107,7 @@ const Footer = () => {
                 <ContactItem>
                    <MailOutline style={{marginRight: "10px"}}/> fardinshaah@gmail.com
                 </ContactItem>
-
+                <Image src="https://i.ibb.co/z7sknG2/payment-option.jpg"/>
             </Right>
         </Container>
     );
