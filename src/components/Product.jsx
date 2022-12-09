@@ -1,6 +1,7 @@
 import { FavoriteBorderOutlined, SearchOutlined, ShoppingCartOutlined } from '@mui/icons-material';
 import React from 'react';
 import styled from 'styled-components';
+import { mobile } from '../responsive';
 
 const Info = styled.div`
     opacity: 0;
@@ -21,7 +22,7 @@ const Container = styled.div`
     flex: 1;
     margin: 5px;
     height: 350px;
-    min-width: 380px;
+    width: 350px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +31,8 @@ const Container = styled.div`
 
     &:hover ${Info}{
         opacity: 1;
-    }   
+    } 
+    ${mobile({width:"300px"})}  
 `
 const Circle = styled.div`
     width: 200px;

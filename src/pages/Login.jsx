@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import { mobile } from '../responsive';
 
 const Container = styled.div`
 height: 100vh;
@@ -15,7 +16,7 @@ const Wrapper = styled.div`
 `
 const ImageContainer = styled.div`
     flex: 2;
-    
+    ${mobile({display:"none"})}
 `
 const Image = styled.img`
     width: 100%;
@@ -27,6 +28,7 @@ const Form = styled.form`
     display: flex;
     justify-content: center;
     flex-direction: column;
+    ${mobile({width:"100%"})}
 
 `
 const Input = styled.input`
